@@ -89,8 +89,8 @@ A self-optimizing distributed file-sync engine with auto-remesh, delta-sync and 
 
 ## 📫 Connect With Me
 <p>
-  <a href="mailto:reicalasso@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
-  <a href="https://linkedin.com/in/reicalasso"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="mailto:mehmetardahakbilen2005@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://www.linkedin.com/in/mehmet-arda-hakbilen-12aba6269/"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
   <a href="https://github.com/reicalasso"><img src="https://skillicons.dev/icons?i=github" /></a>
   <a href="https://instagram.com/"><img src="https://skillicons.dev/icons?i=instagram" /></a>
 </p>
