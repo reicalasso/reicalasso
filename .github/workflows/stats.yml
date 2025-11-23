@@ -1,0 +1,14 @@
+name: Update GitHub Stats with Private Repos
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anuraghazra/github-readme-stats@master
+        with:
+          token: ${{ secrets.STATS_TOKEN }}
