@@ -25,7 +25,7 @@
 
 ---
 
-## 🚀 Core Focus (Geliştirilmiş AI/LLM Bölümü)
+## 🚀 Core Focus
 
 -   **LLM & AI Efficiency**
     
