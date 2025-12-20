@@ -25,10 +25,35 @@
 
 ---
 
-## 🚀 Core Focus
-- **Distributed Systems** — Peer-to-peer sync, topology remeshing, fault-tolerant state machines  
-- **LLM & AI Efficiency** — PULSE Memory Engine, quantization, ONNX, low-latency inference  
-- **Embedded AI / Edge Compute** — Neural inference on ESP32/MCU-level ML runtimes  
+## 🚀 Core Focus (Geliştirilmiş AI/LLM Bölümü)
+
+-   **LLM & AI Efficiency**
+    
+    -   **PULSE Memory Engine** → Hierarchical working, short-term, long-term memory; adaptive routing; streaming context injection
+        
+    -   **Quantization & Low-Latency Inference** → INT4/INT8 optimizations, ONNX acceleration, Flash Attention
+        
+    -   **Prompt & Context Optimization** → Minimal injection, human-like outputs, continuous learning for AI agents
+        
+-   **Embedded AI / Edge Compute**
+    
+    -   Neural inference on **ESP32 / MCU-level ML runtimes**
+        
+    -   Tiny models with **optimized pulse-based processing** for edge devices
+        
+    -   Real-time telemetry, sensor fusion, and embedded anomaly detection
+        
+    -   OTA updates with deterministic task scheduling for mission-critical embedded AI
+        
+-   **Distributed AI Systems & Fault-Tolerant Networks**
+    
+    -   **Peer-to-peer neural machines** → Collaborative inference across nodes
+        
+    -   **Auto-sync & topology remeshing** → Genetic algorithms to reroute around failing nodes
+        
+    -   **Fault-tolerant state machines** → Ensure continuity and consistency in distributed AI workloads
+        
+    -   **Adaptive load balancing** → Dynamic routing of inference tasks and memory state propagation
 
 ---
 
