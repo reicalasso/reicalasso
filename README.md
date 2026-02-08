@@ -15,7 +15,7 @@
   <!-- Typing SVG -->
   <br/>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=7F5AF0&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=850&height=120&lines=AI%2FML+Researcher+%7C+System+Architect;Optimizing+LLMs+with+PULSE+Memory+Engine;Quantization+%26+Low-Latency+Neural+Inference;Building+Distributed+AI+%2B+Fault-Tolerant+Networks;Edge+AI+on+MCUs+%7C+ESP32+Neural+Inference" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=7F5AF0&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=850&height=150&lines=AI%2FML+Researcher+%7C+System+Architect;Optimizing+LLMs+with+PULSE+Memory+Engine;Quantization+%26+Low-Latency+Neural+Inference;Building+Distributed+AI+%2B+Fault-Tolerant+Networks;Edge+AI+on+MCUs+%7C+ESP32+Neural+Inference" alt="Typing SVG" />
   </a>
   <br/>
   <br/>
