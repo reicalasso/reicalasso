@@ -1,0 +1,35 @@
+name: Generate 3D Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs daily at midnight
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    name: Generate 3D GitHub Contribution Graph
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          MAX_REPOS: 100
+
+      - name: Push 3D Graph
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
