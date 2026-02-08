@@ -9,7 +9,7 @@
     <img src="https://avatars.githubusercontent.com/u/131282394?v=4" width="140" style="border-radius:50%; border:3px solid #7f5af0;" alt="Rei Calasso Avatar" />
   </a>
 
-  <h1>👋 Arda Hakbilen (<strong>REI CALASSO</strong>)</h1>
+  <h1>Arda Hakbilen (<strong>REI CALASSO</strong>)</h1>
   <p><em>AI/ML Researcher · LLM Optimization · Distributed AI Systems · Edge Computing</em></p>
 
   <!-- Typing SVG -->
@@ -52,7 +52,7 @@
 ---
 
 <div align="center">
-  <h2>📊 GitHub Analytics & Activity</h2>
+  <h2>GitHub Analytics & Activity</h2>
   <p><em>Tracking my AI/ML research journey through code</em></p>
   <br>
 
@@ -76,15 +76,15 @@
 
 <!-- 3D Contribution Graph -->
 <div align="center">
-  <h2>🎨 3D Contribution Graph</h2>
+  <h2>3D Contribution Graph</h2>
   <img src="https://github.com/reicalasso/reicalasso/blob/output/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 </div>
 
 ---
 
-## 🔬 Research & Core Focus
+## Research & Core Focus
 
-### 🧠 **LLM Optimization & Memory Systems**
+### **LLM Optimization & Memory Systems**
 > Pushing the boundaries of language model efficiency and context management
 
 -   **PULSE Memory Engine** → Novel hierarchical memory architecture for LLMs
@@ -102,7 +102,7 @@
     -   Human-like output generation with controllable variance
     -   Multi-agent orchestration with shared memory pools
 
-### ⚡ **Edge AI & Neural Inference on Embedded Systems**
+### **Edge AI & Neural Inference on Embedded Systems**
 > Bringing neural networks to resource-constrained devices
 
 -   **MCU-Level ML Runtimes** → Neural inference on ESP32, ARM Cortex-M
@@ -115,7 +115,7 @@
     -   Embedded anomaly detection with online learning
     -   OTA model updates with deterministic task scheduling
 
-### 🌐 **Distributed AI & Fault-Tolerant Architectures**
+### **Distributed AI & Fault-Tolerant Architectures**
 > Building resilient AI systems that scale across networks
 
 -   **Peer-to-Peer Neural Networks**
@@ -130,12 +130,12 @@
 
 ---
 
-## 🎯 Featured AI/ML Projects
+## Featured AI/ML Projects
 
 <table>
   <tr>
     <td width="50%">
-      <h3>🧠 PULSE Memory Engine</h3>
+      <h3>PULSE Memory Engine</h3>
       <p><strong>Persistent Unified Linear State Engine for LLMs</strong></p>
       <p>
         Novel memory architecture enabling LLMs to maintain context across sessions with hierarchical storage, adaptive retrieval, and continuous learning capabilities.
@@ -149,7 +149,7 @@
         </a>
       </p>
       <p>
-        🔬 <strong>Research Highlights:</strong><br/>
+        <strong>Research Highlights:</strong><br/>
         • Hierarchical memory with O(log n) retrieval<br/>
         • 40% reduction in context window usage<br/>
         • Streaming injection with adaptive routing<br/>
@@ -157,7 +157,7 @@
       </p>
     </td>
     <td width="50%">
-      <h3>🌐 SentinelFS</h3>
+      <h3>SentinelFS</h3>
       <p><strong>Distributed AI-Powered File Sync Engine</strong></p>
       <p>
         Autonomous P2P synchronization with ML-based anomaly detection, delta-sync algorithms, and genetic topology remeshing for fault tolerance.
@@ -171,7 +171,7 @@
         </a>
       </p>
       <p>
-        🎯 <strong>Key Features:</strong><br/>
+        <strong>Key Features:</strong><br/>
         • ML anomaly detection (99.2% accuracy)<br/>
         • Self-healing network topology<br/>
         • Zero-copy delta sync protocol<br/>
@@ -181,7 +181,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h3>⚡ TinyML Edge Runtime</h3>
+      <h3>TinyML Edge Runtime</h3>
       <p><strong>Neural Inference on MCU-Level Hardware</strong></p>
       <p>
         Custom ML runtime for ESP32/ARM Cortex-M enabling real-time neural inference with <50KB memory footprint and quantized model support.
@@ -193,7 +193,7 @@
         <img src="https://img.shields.io/badge/Status-In_Development-orange?style=for-the-badge" />
       </p>
       <p>
-        ⚙️ <strong>Achievements:</strong><br/>
+        <strong>Achievements:</strong><br/>
         • 95%+ accuracy on 8-bit models<br/>
         • 10ms inference latency<br/>
         • OTA model updates<br/>
@@ -201,7 +201,7 @@
       </p>
     </td>
     <td width="50%">
-      <h3>🔧 LLM Quantization Toolkit</h3>
+      <h3>LLM Quantization Toolkit</h3>
       <p><strong>Extreme Compression for Production LLMs</strong></p>
       <p>
         Research toolkit for INT4/INT8 quantization with custom schemes, ONNX acceleration, and benchmark suite for evaluating compression vs accuracy trade-offs.
@@ -213,7 +213,7 @@
         <img src="https://img.shields.io/badge/Status-Research-blue?style=for-the-badge" />
       </p>
       <p>
-        📊 <strong>Results:</strong><br/>
+        <strong>Results:</strong><br/>
         • 4x model compression (INT4)<br/>
         • <2% accuracy degradation<br/>
         • 8x faster inference on GPU<br/>
@@ -225,12 +225,12 @@
 
 ---
 
-## 🛠️ AI/ML Tech Stack & Tools
+## AI/ML Tech Stack & Tools
 
 <div align="center">
   <table>
     <tr>
-      <td align="center" width="140"><strong>🧠 ML Frameworks</strong></td>
+      <td align="center" width="140"><strong>ML Frameworks</strong></td>
       <td>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -241,7 +241,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="140"><strong>🎯 AI/ML Tools</strong></td>
+      <td align="center" width="140"><strong>AI/ML Tools</strong></td>
       <td>
         <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
         <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
@@ -252,7 +252,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="140"><strong>💻 Core Languages</strong></td>
+      <td align="center" width="140"><strong>Core Languages</strong></td>
       <td>
         <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
@@ -262,7 +262,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="140"><strong>⚡ Embedded AI</strong></td>
+      <td align="center" width="140"><strong>Embedded AI</strong></td>
       <td>
         <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
         <img src="https://img.shields.io/badge/FreeRTOS-00979D?style=for-the-badge&logo=freertos&logoColor=white" />
@@ -272,7 +272,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="140"><strong>🔧 MLOps & Infra</strong></td>
+      <td align="center" width="140"><strong>MLOps & Infrastructure</strong></td>
       <td>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
@@ -283,7 +283,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center" width="140"><strong>📊 Data & Vector DBs</strong></td>
+      <td align="center" width="140"><strong>Data & Vector Databases</strong></td>
       <td>
         <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
@@ -297,12 +297,12 @@
 
 ---
 
-## 📚 Current Research & Interests
+## Current Research & Interests
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>🔬 Active Research</h3>
+      <h3>Active Research</h3>
       <ul>
         <li><strong>Memory Systems for LLMs</strong><br/>
         Novel architectures for persistent context management</li>
@@ -315,7 +315,7 @@
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>🎯 Exploring</h3>
+      <h3>Exploring</h3>
       <ul>
         <li><strong>Neural Architecture Search</strong><br/>
         AutoML for embedded systems</li>
@@ -328,7 +328,7 @@
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h3>📖 Learning</h3>
+      <h3>Learning</h3>
       <ul>
         <li><strong>Rust for ML Systems</strong><br/>
         High-performance ML infrastructure</li>
@@ -345,7 +345,7 @@
 
 ---
 
-## 🗓️ Research Timeline
+## Research Timeline
 
 - **2025** · Deep dive into **PULSE Memory Engine** optimization and **LLM quantization research**. Publishing benchmarks on distributed AI systems.
 - **2024** · Built **SentinelFS** (distributed AI), **TinyML runtime** for ESP32. Experimented with fault-tolerant neural architectures.
@@ -353,7 +353,7 @@
 
 ---
 
-## 🤝 Let's Collaborate!
+## Collaboration
 
 <div align="center">
   <p>
@@ -380,6 +380,6 @@
   <br/>
 
   <sub>
-    ⭐ Star my repos if you find them interesting | 🔗 Open to research collaborations | 💬 Always happy to discuss AI/ML
+    Star my repos if you find them interesting | Open to research collaborations | Always happy to discuss AI/ML
   </sub>
 </div>
