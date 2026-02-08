@@ -32,9 +32,12 @@
 <div align="center">
   <h2>📈 GitHub Stats</h2>
   <br>
-  
-  [![Reicalasso's Stats](https://github-readme-stats.vercel.app/api?username=reicalasso&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F5AF0&icon_color=2cb67d)](https://github.com/reicalasso)
-  [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=reicalasso&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F5AF0)](https://github.com/reicalasso)
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=reicalasso&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F5AF0&icon_color=2cb67d" alt="Reicalasso's Stats" />
+  </p>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reicalasso&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7F5AF0" alt="Top Languages" />
+  </p>
 </div>
 
 <br />
