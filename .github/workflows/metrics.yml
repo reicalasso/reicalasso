@@ -37,7 +37,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           filename: github-metrics.svg
-          output_action: gist
+          output_action: commit
+          committer_branch: metrics
+          committer_message: "Update metrics"
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           # Use a dark theme to match your profile
           config_theme: noctis_minimus
