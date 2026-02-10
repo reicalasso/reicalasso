@@ -15,7 +15,7 @@
   <!-- Typing SVG -->
   <br/>
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=7F5AF0&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=850&height=180&lines=Building+Beyond+Transformer;Exploring+State-Space+Models+%26+Hybrid+RNNs;From+Vibe+Coding+to+Systematic+Learning;47-Day+Coding+Streak+%7C+Phase+1%2F6;Questioning+Transformer+Monopoly" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=800&color=7F5AF0&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=850&height=180&lines=Building+Beyond+Transformer;Exploring+State-Space+Models+%26+Hybrid+RNNs;+%7C+Phase+1%2F6;Questioning+Transformer+Monopoly" alt="Typing SVG" />
   </a>
   <br/>
   <br/>
@@ -25,7 +25,6 @@
   <p>
     <img src="https://img.shields.io/badge/Research-Alternative%20Architectures-7f5af0?style=for-the-badge&logo=openai&logoColor=white" alt="Research badge" />
     <img src="https://img.shields.io/badge/Focus-Beyond%20Transformer-fd6ff8?style=for-the-badge&logo=pytorch&logoColor=white" alt="Focus badge" />
-    <img src="https://img.shields.io/badge/Streak-47%20Days-ff006e?style=for-the-badge&logo=github&logoColor=white" alt="Streak badge" />
     <img src="https://komarev.com/ghpvc/?username=reicalasso&label=Profile%20views&color=7f5af0&style=for-the-badge" alt="Profile views counter" />
   </p>
 
@@ -57,7 +56,7 @@
   <br>
 
   <br/><br/>
-  
+
 <!-- 3D Contribution Graph -->
 <div align="center">
   <h2>3D Contribution Graph</h2>
@@ -341,6 +340,6 @@
   <br/>
 
   <sub>
-    Star repos if you find them useful | Building in public | 47-day streak & counting
+    Star repos if you find them useful | Building in public
   </sub>
 </div>
