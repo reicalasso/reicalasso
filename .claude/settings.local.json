@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git fetch origin output:output)",
-      "Bash(git ls-tree:*)"
-    ]
-  }
-}
