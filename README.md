@@ -2,13 +2,7 @@
   <!-- Banner -->
   <img src="assets/github-header-banner.png" width="100%" alt="Kael Valen Banner" />
 
-  <br/><br/>
-
-  <!-- Avatar -->
-  <a href="https://github.com/kaelvalen">
-    <img src="https://avatars.githubusercontent.com/u/131282394?v=4" width="140" style="border-radius:50%; border:3px solid #7f5af0;" alt="Kael Valen Avatar" />
-  </a>
-
+  <br/>
   <h1>Arda Hakbilen (<strong>Kael Valen</strong>)</h1>
   <p><em>ML Architecture Researcher · Non-Transformer Models · Systematic Learning</em></p>
 
