@@ -323,6 +323,6 @@
   <br/>
 
   <sub>
-    Star repos if you find them useful | Building in public
+    Star the repos if you like them. Building in private — launching into space soon.
   </sub>
 </div>
