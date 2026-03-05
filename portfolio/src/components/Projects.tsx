@@ -1,6 +1,7 @@
 "use client";
 
 import ScrollReveal from "./ScrollReveal";
+import ParallaxCard from "./ParallaxCard";
 
 const GitHubIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -73,7 +74,7 @@ export default function Projects() {
         </ScrollReveal>
 
         {/* Featured project */}
-        <ScrollReveal direction="up">
+        <ParallaxCard depth={18}>
           <article className="relative bg-bg-card border border-accent/20 rounded-2xl p-5 sm:p-8 mb-6 group hover:border-accent/40 hover:bg-bg-card-hover transition-all duration-300 overflow-hidden">
             {/* Background glow */}
             <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
@@ -157,12 +158,12 @@ export default function Projects() {
               </div>
             </div>
           </article>
-        </ScrollReveal>
+        </ParallaxCard>
 
         {/* Other projects grid */}
         <div className="grid md:grid-cols-2 gap-6">
           {otherProjects.map((project, i) => (
-            <ScrollReveal key={project.title} delay={0.1 * (i + 1)} direction="up">
+            <ParallaxCard key={project.title} delay={0.1 * (i + 1)} depth={14 + i * 6}>
               <article className="bg-bg-card border border-border rounded-xl p-7 hover:border-border-hover hover:bg-bg-card-hover transition-all group h-full flex flex-col">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-2">
@@ -206,7 +207,7 @@ export default function Projects() {
                   ))}
                 </div>
               </article>
-            </ScrollReveal>
+            </ParallaxCard>
           ))}
         </div>
       </div>

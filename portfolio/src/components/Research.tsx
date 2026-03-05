@@ -1,6 +1,7 @@
 "use client";
 
 import ScrollReveal from "./ScrollReveal";
+import ParallaxCard from "./ParallaxCard";
 
 const researchAreas = [
   {
@@ -94,7 +95,7 @@ export default function Research() {
 
         <div className="grid md:grid-cols-3 gap-6">
           {researchAreas.map((area, i) => (
-            <ScrollReveal key={area.title} delay={0.1 * i} direction="up">
+            <ParallaxCard key={area.title} delay={0.1 * i} depth={20 + i * 6}>
               <div
                 className={`group relative bg-bg-card border border-border rounded-xl p-7 transition-all duration-300 cursor-default h-full
                   hover:border-[${area.borderGlow}] hover:bg-bg-card-hover`}
@@ -139,7 +140,7 @@ export default function Research() {
                   </ul>
                 </div>
               </div>
-            </ScrollReveal>
+            </ParallaxCard>
           ))}
         </div>
       </div>
