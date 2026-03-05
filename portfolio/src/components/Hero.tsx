@@ -42,8 +42,11 @@ export default function Hero() {
     }
 
     if (deleting && charIndex === 0) {
-      setDeleting(false);
-      setCmdIndex((cmdIndex + 1) % commands.length);
+      const timeout = setTimeout(() => {
+        setDeleting(false);
+        setCmdIndex((cmdIndex + 1) % commands.length);
+      }, 0);
+      return () => clearTimeout(timeout);
     }
   }, [charIndex, deleting, cmdIndex]);
 
