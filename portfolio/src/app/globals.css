@@ -20,13 +20,41 @@
   --font-mono: var(--font-geist-mono);
 }
 
-* {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*, html {
   scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(6px); opacity: 0.5; }
+}
+
+.animate-gradient {
+  animation: gradient 4s ease infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
 }
 
 body {
   background: var(--color-bg);
   color: var(--color-text);
+  overflow-x: hidden;
 }
 
 ::selection {

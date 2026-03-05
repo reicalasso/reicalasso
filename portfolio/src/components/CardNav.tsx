@@ -154,22 +154,22 @@ const CardNav: React.FC<CardNavProps> = ({
 
   return (
     <div
-      className={`card-nav-container absolute left-1/2 -translate-x-1/2 w-[90%] max-w-[800px] z-[99] top-[1.2em] md:top-[2em] ${className}`}
+      className={`card-nav-container fixed left-1/2 -translate-x-1/2 w-[90%] max-w-200 z-99 top-[1.2em] md:top-[2em] ${className}`}
     >
       <nav
         ref={navRef}
         className={`card-nav ${
           isExpanded ? "open" : ""
-        } block h-[60px] p-0 rounded-xl shadow-lg relative overflow-hidden will-change-[height] border border-[#2a2a3a]`}
+        } block h-15 p-0 rounded-xl shadow-lg relative overflow-hidden will-change-[height] border border-border`}
         style={{ backgroundColor: baseColor }}
       >
         {/* Top bar */}
-        <div className="card-nav-top absolute inset-x-0 top-0 h-[60px] flex items-center justify-between p-2 pl-[1.1rem] z-[2]">
+        <div className="card-nav-top absolute inset-x-0 top-0 h-15 flex items-center justify-between p-2 pl-[1.1rem] z-2">
           {/* Hamburger */}
           <div
             className={`hamburger-menu ${
               isHamburgerOpen ? "open" : ""
-            } group h-full flex flex-col items-center justify-center cursor-pointer gap-[6px] order-2 md:order-none`}
+            } group h-full flex flex-col items-center justify-center cursor-pointer gap-1.5 order-2 md:order-0`}
             onClick={toggleMenu}
             role="button"
             aria-label={isExpanded ? "Close menu" : "Open menu"}
@@ -178,19 +178,19 @@ const CardNav: React.FC<CardNavProps> = ({
             style={{ color: menuColor }}
           >
             <div
-              className={`w-[26px] h-[2px] bg-current transition-transform duration-300 origin-center ${
-                isHamburgerOpen ? "translate-y-[4px] rotate-45" : ""
+              className={`w-6.5 h-0.5 bg-current transition-transform duration-300 origin-center ${
+                isHamburgerOpen ? "translate-y-1 rotate-45" : ""
               } group-hover:opacity-75`}
             />
             <div
-              className={`w-[26px] h-[2px] bg-current transition-all duration-300 origin-center ${
-                isHamburgerOpen ? "-translate-y-[4px] -rotate-45" : ""
+              className={`w-6.5 h-0.5 bg-current transition-all duration-300 origin-center ${
+                isHamburgerOpen ? "-translate-y-1 -rotate-45" : ""
               } group-hover:opacity-75`}
             />
           </div>
 
           {/* Logo */}
-          <div className="flex items-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 order-1 md:order-none">
+          <div className="flex items-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 order-1 md:order-0">
             <a
               href="#hero"
               className="font-mono text-lg font-bold"
@@ -214,28 +214,28 @@ const CardNav: React.FC<CardNavProps> = ({
 
         {/* Cards */}
         <div
-          className={`card-nav-content absolute left-0 right-0 top-[60px] bottom-0 p-2 flex flex-col items-stretch gap-2 justify-start z-[1] ${
+          className={`card-nav-content absolute left-0 right-0 top-15 bottom-0 p-2 flex flex-col items-stretch gap-2 justify-start z-1 ${
             isExpanded
               ? "visible pointer-events-auto"
               : "invisible pointer-events-none"
-          } md:flex-row md:items-end md:gap-[8px]`}
+          } md:flex-row md:items-end md:gap-2`}
           aria-hidden={!isExpanded}
         >
           {items.slice(0, 5).map((item, idx) => (
             <div
               key={`${item.label}-${idx}`}
-              className="nav-card select-none relative flex flex-col gap-2 p-[12px_16px] rounded-[calc(0.75rem-0.2rem)] min-w-0 flex-[1_1_auto] h-auto min-h-[60px] md:h-full md:min-h-0 md:flex-[1_1_0%]"
+              className="nav-card select-none relative flex flex-col gap-2 p-[12px_16px] rounded-[calc(0.75rem-0.2rem)] min-w-0 flex-[1_1_auto] h-auto min-h-15 md:h-full md:min-h-0 md:flex-[1_1_0%]"
               ref={setCardRef(idx)}
               style={{ backgroundColor: item.bgColor, color: item.textColor }}
             >
               <div className="font-normal tracking-[-0.5px] text-[18px] md:text-[20px]">
                 {item.label}
               </div>
-              <div className="mt-auto flex flex-col gap-[2px]">
+              <div className="mt-auto flex flex-col gap-0.5">
                 {item.links?.map((lnk, i) => (
                   <a
                     key={`${lnk.label}-${i}`}
-                    className="inline-flex items-center gap-[5px] no-underline cursor-pointer transition-opacity duration-200 hover:opacity-70 text-[14px] md:text-[15px]"
+                    className="inline-flex items-center gap-1.25 no-underline cursor-pointer transition-opacity duration-200 hover:opacity-70 text-[14px] md:text-[15px]"
                     href={lnk.href}
                     aria-label={lnk.ariaLabel}
                   >
