@@ -30,31 +30,29 @@
 
 ## What I'm Working On
 
-I'm interested in the intersection of **model architecture** and **inference efficiency** — specifically, why modern sequence models are designed the way they are, where they fail, and whether simpler alternatives can close the gap.
+I'm interested in the intersection of **model architecture** and **inference efficiency** — why modern sequence models are designed the way they are, where they fail, and whether simpler alternatives can close the gap.
 
-Right now I'm building [**PULSE**](https://github.com/kaelvalen/beyond_transformer) — an experimental O(n) architecture that replaces the standard SSM + Attention + State stack with a single uniform block. It's not finished. It's a research project where I'm learning by building from scratch.
+Right now my main project is [**PRISM**](https://github.com/kaelvalen/prism) — a modality-agnostic sequence architecture that processes ECG signals and image patches through one shared backbone built from interleaved S4D-Complex and Gated Delta Rule blocks. The hybrid run hits **88.4% on CIFAR-10** with ~8M params; ablations and PTB-XL ECG benchmarks are running.
 
 **Current focus areas:**
-- Linear attention and its approximation trade-offs
-- Kernel-based sequence models vs. softmax attention
-- Hardware-aware algorithm design (memory hierarchy, tiling, compute efficiency)
-- Why Flash Attention works at the kernel level — working through the math
+- State-space models (S4D, complex diagonal SSMs) and associative memory (delta rule, fast weights)
+- Hybrid sequence architectures — when interleaving beats either component alone
+- Hardware-aware algorithm design (parallel scan, chunked recurrence, memory hierarchy)
+- Modality-agnostic backbones — testing how far a single design generalizes across signal types
 
 ---
 
 ## Projects
 
+### [PRISM — Parallel Recurrent Integrated Signal Model](https://github.com/kaelvalen/prism)
+`PyTorch` `SSM` `Delta Rule` `Research` · **Active**
+
+A modality-agnostic sequence model: 12-layer hybrid backbone interleaving S4D-Complex blocks (continuous-time signal dynamics) with Gated Delta Rule blocks (matrix-valued associative memory) at a 3:1 ratio. Same backbone handles 12-lead ECG, image patches, and arbitrary continuous signals — only the input projection and output head are per-modality. CIFAR-10: 88.4% val acc on the hybrid config.
+
 ### [PULSE — Parallel Unified Linear State Engine](https://github.com/kaelvalen/beyond_transformer)
-`PyTorch` `Python` `Research`
+`PyTorch` `Python` `Research` · **Experimental**
 
-An experimental sequence architecture exploring whether a single O(n) primitive (local convolution + linear attention + gated fusion) can replace the complexity of transformer-style stacks. Active development — see the repo for current status and known issues.
-
----
-
-### [SentinelFS](https://github.com/kaelvalen/SentinelFS)
-`C++17` `P2P` `Distributed Systems` · **Archived**
-
-Distributed peer-to-peer file sync with ML-based anomaly detection, delta-sync algorithms, and self-healing network topology. No longer maintained — kept for reference.
+Earlier exploration of a single O(n) primitive (local convolution + linear attention + gated fusion + key-value memory) as a transformer alternative. Predates PRISM. Useful as a study repo; see the README for current status and known limitations.
 
 ---
 
@@ -66,16 +64,16 @@ Distributed peer-to-peer file sync with ML-based anomaly detection, delta-sync a
     <td>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
       <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-      <img src="https://img.shields.io/badge/JAX-00599C?style=flat-square&logo=google&logoColor=white" />
+      <img src="https://img.shields.io/badge/Triton-9B59B6?style=flat-square&logo=openai&logoColor=white" />
       <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
     </td>
   </tr>
   <tr>
     <td><strong>Languages</strong></td>
     <td>
+      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-      <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     </td>
   </tr>
